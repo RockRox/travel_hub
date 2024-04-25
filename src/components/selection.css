@@ -1,0 +1,46 @@
+.box {
+    width: 50px; /* Adjust the width of the box */
+    height: 50px; /* Adjust the height of the box // Adjust the height of the box */
+    background-color: gray; /* Adjust the background color of the box */
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+.box_x {
+    width: 50px; /* Adjust the width of the box */
+    height: 50px; /* Adjust the height of the box // Adjust the height of the box */
+    background-color: red; /* Adjust the background color of the box */
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+.box_s {
+    width: 50px; /* Adjust the width of the box */
+    height: 50px; /* Adjust the height of the box // Adjust the height of the box */
+    background-color: green; /* Adjust the background color of the box */
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+
+
+#parent {
+    display: flex;
+    justify-content: center; /* Horizontally center the boxes */
+    align-items: center; /* Vertically center the boxes */
+    height: 100vh; /* Adjust the gap between each box */
+}
+.rkiop {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); /* Adjust the width of each column */
+    gap: 10px; /* Adjust the gap between each box */
+}
+.App {
+    text-align: center;
+  }
+
+  .bdy {
+    background-image: url('./images/seating.jpg');
+    background-size: cover; /* This ensures the image covers the entire background */
+    background-position: center; /* This centers the image */
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    
+  }

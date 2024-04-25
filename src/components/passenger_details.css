@@ -1,0 +1,32 @@
+.settings{
+    position: 'absolute';
+    
+    left: 1200px;
+}
+
+.App {
+    top:250px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+    flex-direction: column;
+    
+}
+
+.byd {
+    background-image: url('./images/travel.jpg');
+    background-size: cover; /* This ensures the image covers the entire background */
+    background-position: center; /* This centers the image */
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    
+  }
